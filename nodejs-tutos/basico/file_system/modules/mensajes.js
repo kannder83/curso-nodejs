@@ -1,4 +1,4 @@
-console.log("Este es un mensaje luego de importar.");
+// console.log("Este es un mensaje luego de importar.");
 
 let edad_kannder = 37;
 
@@ -18,5 +18,8 @@ module.exports = {
   edad: edad_kannder,
   saludar: function (nombre) {
     console.log(`Hola ${nombre}`);
+  },
+  sumar: (a, b) => {
+    return a + b;
   },
 };

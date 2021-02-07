@@ -1,0 +1,26 @@
+{
+  "name": "curso-nodejs",
+  "version": "1.0.0",
+  "description": "Curso Youtube sobre Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kannder83/curso-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tutorial",
+    "curso"
+  ],
+  "author": "kannder83 <kannder.ziur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kannder83/curso-nodejs/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

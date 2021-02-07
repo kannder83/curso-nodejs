@@ -12,10 +12,10 @@ let usuario = os.hostname();
 
 let cpu_string = JSON.stringify(cpu);
 
-console.log(`La edad es: ${mensaje.edad}.`);
+// console.log(`La edad es: ${mensaje.edad}.`);
 
 //Para llamar la función desde otro modulo:
-mensaje.saludar("Alejandro");
+// mensaje.saludar("Alejandro");
 
 //Enviar la información a un archivo txt:
 /*
@@ -36,3 +36,11 @@ fs.appendFile(
 console.log(sistema);
 console.log(usuario);
 */
+
+//=============================>> Funciones Flcha
+let respuestaSuma = mensaje.sumar(10, 20);
+console.log(`El resultado de la suma es: ${respuestaSuma}.`);
+
+setTimeout(() => {
+  console.log("Han pasado 2 segundos desde que se inicio app.");
+}, 2000);
