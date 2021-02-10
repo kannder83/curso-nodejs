@@ -21,6 +21,7 @@
     "url": "https://github.com/kannder83/curso-nodejs/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "request": "^2.88.2"
   }
 }
